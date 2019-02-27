@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downtown</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato(%7CRoboto" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <nav>
+        
+
+  <div class="topnav">
+           <a href="#splash"><div class="logo"></div></a>
+            <a href="#menu">Menu</a>
+            <a href="#omos">Om os</a>
+            <a href="#kontakt">Kontakt</a>
+
+        </div>
+
+        <div class="burgermenu">
+            <div id="menuknap">☰</div>
+            <a href="#splash"><div class="logo"></div></a>
+            <ul id="topmenu" class="hidden">
+                <li><a href="#splash" class="link">Forside</a></li>
+                <li><a href="#menu" class="link2">Menu</a></li>
+                <li><a href="#omos" class="link3">Om os</a></li>
+                <li><a href="#kontakt" class="link4">Kontakt</a></li>
+
+            </ul>
+        </div>
+
+
+
+    </nav>
+
+   
+     <section id=splash>
+        <picture>
+            <source media="(min-width: 1200px)" srcset="imgs/desktop.jpg">
+            <source media="(min-width: 1024px)" srcset="imgs/tablet_landscape.jpg">
+            <source media="(min-width: 768px)" srcset="imgs/tablet_portrait.jpg">
+            <source media="(min-width: 627px)" srcset="imgs/mobile_landscape.jpg">
+            <img src="imgs/mobile_portrait.jpg" alt="mobil portrait">
+
+        </picture>
+    </section>
+    
+    
+
+    
+
+    <div id="popup">
+        <div id="luk">
+            <button>X</button>
+
+        </div>
+
+        <div id="indhold"></div>
+    </div>
+<section id="menu">
+        <h1>Alle</h1>
+        <nav class="menu">
+            <button class="filter valgt" data-hold="alle">Alle</button>
+            <button class="filter" data-hold="Hovedret">Hovedret</button>
+            <button class="filter" data-hold="Sideorders">Sideorders</button>
+            <button class="filter" data-hold="Drinks">Drinks</button>
+            <div class = streg><hr> </div>
+        </nav>
+
+    <div id="liste"></div>
+    </section>
+
+
+<div class = streg><hr> </div>
+  <section id="omos">
+
+        
+        <div class="column">
+            <h1>Hvem er vi?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium rutrum finibus. Praesent ut elementum lectus. Aenean vestibulum eros at erat eleifend, ut ultrices urna convallis. Ut mattis risus tortor, vulputate varius dui congue non. Ut mollis feugiat eros, ac pharetra est rhoncus eget. Quisque interdum lacinia porta. Integer faucibus blandit urna, ut porttitor tortor posuere quis. Aliquam posuere ante vitae tempus viverra. Suspendisse non dui ac risus cursus luctus. Nulla ornare mauris ac dictum hendrerit. Etiam ut erat vel lorem porta blandit ut eu magna. <br>
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eveniet sequi voluptas modi similique nisi, atque illo beatae, quasi accusamus explicabo, excepturi cumque dignissimos obcaecati doloremque! Tempore consequuntur officiis et. <br>Modi similique nisi, atque illo beatae, quasi accusamus explicabo, excepturi cumque dignissimos obcaecati doloremque! Tempore consequuntur officiis et. </p>
+        </div>
+        
+        <div class="column">
+
+            <img src="imgs/omos.jpg" alt="madlavning">
+        </div>
+
+    </section>
+
+    <div class = streg><hr> </div>
+    <section id="kontakt">
+
+        <div class="sectionwrapper">
+            <div class="column_wide">
+
+                <div class="content">
+                    <h2>Åbningstider</h2>
+                    <p>Mandag til torsdag & søndag <br>
+fra kl 10:00 til 22:00<br>
+<br>
+Fredag til lørdag<br>
+fra kl. 9.00 til 23:00<br></p>
+
+                    <h2>Kontakt os</h2>
+                    <p> ✆ 8888 8888<br>
+
+✉ downtown@stud.kea.dk </p>
+                </div>
+
+
+
+            </div>
+            <div class="column_narrow">
+                <h2>Find Os</h2>
+                <p>Lygten 16, Venus <br> 2400 København</p>
+
+                <a href="https://goo.gl/maps/89veDSFkPkk"><img src="imgs/kort.jpg" alt="Lygten 16 København"></a>
+                    
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

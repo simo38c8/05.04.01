@@ -1,0 +1,194 @@
+[
+{
+"id": "1",
+"kategori": "Hovedret",
+"navn": "Classic Cheese Burger",
+"pris": "59",
+"lang": "Cheeseburger med salat, tomat, pickles og mayo.",
+"billede": "Burger1"
+},
+{
+"id": "2",
+"kategori": "Hovedret",
+"navn": "Chicken Burger",
+"pris": "59",
+"lang": "Kyllingeburger med salat, pickles, ranch-dressing og mayo.",
+"billede": "Burger2"
+},
+{
+"id": "3",
+"kategori": "Hovedret",
+"navn": "Bacon Cheese Burger",
+"pris": "65",
+"lang": "Cheeseburger med bacon, pickles og mayo.",
+"billede": "Burger3"
+},
+{
+"id": "4",
+"kategori": "Hovedret",
+"navn": "Spicy Burger",
+"pris": "69",
+"lang": "Cheeseburger med salat, syltede rødløg, chili cheese tops og mayo.",
+"billede": "Burger4"
+},
+{
+"id": "5",
+"kategori": "Hovedret",
+"navn": "Onion Ring Burger",
+"pris": "69",
+"lang": "Cheeseburger med salat, karamelliserede løg, bacon, pickles og mayo.",
+"billede": "Burger5"
+},
+{
+"id": "6",
+"kategori": "Hovedret",
+"navn": "Soft Onion Burger",
+"pris": "69",
+"lang": "Cheeseburger med sprød onion, samt pickles og mayo.",
+"billede": "Burger6"
+},
+{
+"id": "7",
+"kategori": "Hovedret",
+"navn": "Ceasær Salat",
+"pris": "65",
+"lang": "Økologisk salat med parmesan og kyllingbryst samt hjemmelavet dressing.",
+"billede": "Salat1"
+},
+{
+"id": "8",
+"kategori": "Hovedret",
+"navn": "Steak salat",
+"pris": "65",
+"lang": "Grilled steak marineret med hvidløg og chili samt økologisk salat med tomat, løg og artiskok.",
+"billede": "Salat2"
+},
+{
+"id": "9",
+"kategori": "Sideorders",
+"navn": "French Fries",
+"pris": "19",
+"lang": "Klassiske økologiske saltet pommes fritter.",
+"billede": "Snack1"
+},
+{
+"id": "10",
+"kategori": "Sideorders",
+"navn": "Chili Fries",
+"pris": "25",
+"lang": "Økologiske fritter med chili pulver.",
+"billede": "Snack2"
+},
+{
+"id": "11",
+"kategori": "Sideorders",
+"navn": "Curly Fries",
+"pris": "25",
+"lang": "Økologiske krøllede fritter med krydderi.",
+"billede": "Snack3"
+},
+{
+"id": "12",
+"kategori": "Sideorders",
+"navn": "Onion Rings",
+"pris": "25",
+"lang": "Brændvarme friteret løgringe.",
+"billede": "Snack4"
+},
+{
+"id": "13",
+"kategori": "Sideorders",
+"navn": "Coleslaw",
+"pris": "25",
+"lang": "Den klassiske amerikanske coleslaw med kål og dressing.",
+"billede": "Snack5"
+},
+{
+"id": "14",
+"kategori": "Sideorders",
+"navn": "Mini Salat",
+"pris": "25",
+"lang": "Mini salat med naturlige råvarer.",
+"billede": "Snack6"
+},
+{
+"id": "15",
+"kategori": "Sideorders",
+"navn": "Chili Cheesetops",
+"pris": "25",
+"lang": "Knasende sprøde udenpå og med varm smeltet ost inden i.",
+"billede": "Snack7"
+},
+{
+"id": "16",
+"kategori": "Sideorders",
+"navn": "Hotwings",
+"pris": "25",
+"lang": "Små kylling lår, marineret i barbecue sauce.",
+"billede": "Snack8"
+},
+{
+"id": "17",
+"kategori": "Drinks",
+"navn": "Pepsi",
+"pris": "19",
+"lang": "Klassisk sodavand med brus.",
+"billede": "Drik1"
+},
+{
+"id": "18",
+"kategori": "Drinks",
+"navn": "Pepsi Max",
+"pris": "19",
+"lang": "Sodavand uden kalorier.",
+"billede": "Drik2"
+},
+{
+"id": "19",
+"kategori": "Drinks",
+"navn": "Faxi Kondi",
+"pris": "19",
+"lang": "Det min yndlings sodavand.",
+"billede": "Drik3"
+},
+{
+"id": "20",
+"kategori": "Drinks",
+"navn": "Miranda Orange",
+"pris": "19",
+"lang": "Sodavand med smag af appelsin.",
+"billede": "Drik4"
+},
+{
+"id": "21",
+"kategori": "Drinks",
+"navn": "Miranda Lemon ",
+"pris": "19",
+"lang": "Sodavand med smag af citron.",
+"billede": "Drik5"
+},
+{
+"id": "22",
+"kategori": "Drinks",
+"navn": "Red Copper Ale",
+"pris": "19",
+"lang": "En ale med tør eftersmag.",
+"billede": "Drik6"
+},
+{
+"id": "23",
+"kategori": "Drinks",
+"navn": "SOL",
+"pris": "19",
+"lang": "En drik med smag af malt og gulden aroma.",
+"billede": "Drik7"
+},
+{
+"id": "24",
+"kategori": "Drinks",
+"navn": "Milkshakes",
+"pris": "35",
+"lang": "Fås med både jordbær, chokolade, vanilje, karamel og oreo smag. Toppet med flødeskum",
+"billede": "Drik8"
+}
+]

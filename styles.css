@@ -1,0 +1,566 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     padding: 0;
+     margin: 0;
+     background-image: url(imgs/background.jpg);
+ }
+
+
+ img {
+     width: 100%;
+ }
+
+
+ /*BURGERMENU*/
+ #topmenu {
+     list-style-type: none;
+     transition: transform 1s;
+     background-image: url(imgs/background.jpg);
+     z-index: 1;
+     width: 100%;
+     height: 100%;
+     top: -1rem;
+     text-decoration: underline;
+     position: fixed;
+ }
+
+
+ #topmenu a {
+
+     font-size: 1.6rem;
+     text-transform: uppercase;
+     color: #EEDDC4;
+     font-family: 'Roboto', sans-serif;
+
+ }
+
+
+ #topmenu li {
+     padding-top: 7rem;
+     text-align: center;
+     padding-right: 3rem;
+ }
+
+ .hidden {
+     transform: translateX(-150%);
+
+ }
+
+ #menuknap {
+     display: inline-block;
+     color: white;
+     font-size: 2rem;
+     padding: 1.5rem;
+     z-index: 2;
+     position: fixed;
+
+ }
+
+ .topnav {
+     list-style-type: none;
+     transition: transform 1s;
+     z-index: 1;
+     width: 100%;
+     text-align: center;
+     padding: 2rem;
+     background: rgba(0, 0, 0, 0.34);
+     position: fixed;
+
+ }
+
+ .topnav a {
+     font-size: 1.3rem;
+     text-decoration: none;
+     color: #EEDDC4;
+     text-transform: uppercase;
+     padding: 0.75rem;
+     margin-top: 0.75rem;
+     margin-right: 10vw;
+     font-weight: bolder;
+ }
+
+ .topnav a:hover {
+     font-size: 1.6rem;
+ }
+
+
+
+
+ .logo {
+     background-image: url(imgs/DownTown%20Logo.svg);
+     height: 6.5rem;
+    width: 5rem;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 0vw;
+     left: 4vw;
+     background-size: 100%;
+
+
+ }
+
+
+ #splash {
+     max-width: none;
+     position: relative;
+     top: 0;
+     z-index: -1;
+ }
+
+
+
+
+
+
+ #kontakt img {
+     width: 60%;
+     height: 94%;
+ }
+
+
+
+
+ p {
+     margin-left: 1rem;
+     color: white;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.5;
+ }
+
+
+
+
+ #omos {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 1rem;
+
+
+
+ }
+
+ .column {
+     flex-basis: 350px;
+     flex-grow: 1;
+
+
+ }
+
+
+ h2 {
+     margin-left: 1rem;
+     color: #EEDDC4;
+     font-family: 'Roboto', sans-serif;
+ }
+
+
+ .sectionwrapper {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+
+ .column_wide {
+     display: flex;
+
+     flex-basis: 500px;
+ }
+
+ .column_narrow {
+     display: flex;
+flex-basis: 500px;
+     flex-direction: column;
+ }
+
+
+
+
+
+ #liste {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 1rem;
+     grid-gap: 3rem;
+ }
+
+
+
+
+
+
+
+ #menu h1 {
+     color: #EEDDC4;
+     margin-top: 4rem;
+     margin-bottom: 1rem;
+     font-family: 'Roboto', sans-serif;
+     text-align: center;
+     font-size: 2rem;
+
+ }
+
+ #omos h1 {
+     color: #EEDDC4;
+     font-family: 'Roboto', sans-serif;
+     margin-left: 1rem;
+ }
+
+
+
+ .menuramme img {
+     border: #EE679A 4px solid;
+ }
+
+
+ .menuramme {
+     border: 2px outset rgba(255, 255, 255, 0.37);
+     padding: 1rem;
+     line-height: 1.8;
+     background-color: #121212;
+ }
+
+
+
+
+
+ .filter {
+     height: 2vw;
+     margin: 0.3vw;
+     font-weight: bold;
+ }
+
+ .menu {
+     text-align: center;
+ }
+
+
+
+ #popup {
+     top: 0;
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     background-color: hsla(0, 1%, 69%, 0.5);
+     display: none;
+ }
+
+ #indhold {
+     min-height: 50vh;
+     width: 30vw;
+     margin: 4rem auto;
+     color: white;
+     padding-top: 3em;
+
+ }
+
+
+ .menu button {
+     border-radius: 6px;
+     width: 8rem;
+     height: 4rem;
+     cursor: pointer;
+     font-weight: bold;
+     text-shadow: 0px 0.5px 0px rgb(255, 255, 255);
+
+
+ }
+
+ .valgt {
+     background-color: #EE679A;
+     color: white;
+ }
+
+ #luk {
+     position: fixed;
+     right: 25em;
+    top: 7.2em;
+ }
+
+ #luk button {
+     font-size: 2rem;
+     padding: 1rem 1rem;
+     background-color: black;
+     color: #EEDDC4;
+ }
+
+
+ #popup p {
+     margin: 0;
+     padding: 0;
+ }
+
+ #popup h2 {
+     margin: 0;
+     padding: 0;
+ }
+
+
+
+
+
+
+
+
+ .column img {
+     width: 70%;
+     margin-left: 5rem;
+ }
+
+
+
+
+
+
+ .streg {
+     padding: 30px
+ }
+
+
+
+
+ /*MEDIAQUERY*/
+
+
+
+
+
+
+
+
+
+ /*Mobil Portrait*/
+ @media screen and (max-width:680px) {
+
+     .topnav {
+         display: none;
+     }
+
+     .logo {
+         top: 45vw;
+         left: 30vw;
+         height: 50vw;
+         width: 40vw;
+     }
+
+.column_wide {
+         flex-basis: 300px;
+     }
+
+     .column_narrow {
+         flex-basis: 300px;
+     }
+     
+     #kontakt img{ width: 100%;
+     height: 100%;}
+
+
+
+     #liste {
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+
+     #luk {
+         right: 21vw;
+     }
+
+     #indhold {
+         width: 60vw;
+     }
+
+     #omos {
+         margin-left: 0;
+         margin-top: 0;
+     }
+
+
+     .column img {
+         width: 100%;
+         margin-left: 0;
+         margin-top: 0;
+
+     }
+
+
+
+     p,
+     h2 {
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+
+
+     #indhold {
+         width: 100vw;
+
+     }
+
+     #popup {
+         padding-top: 2rem;
+     }
+
+     #luk {
+         right: 0rem;
+         top: 10.2em;
+     }
+
+     h1 {
+         margin-top: 1rem;
+     }
+
+     .menu button {
+     width: 5.3rem;
+     }
+
+     #liste {
+         margin: 2rem;
+     }
+     
+      #omos h1 {
+     margin-left: 2rem;
+ }
+
+
+
+ }
+
+ @media screen and (min-width:680px) {
+
+     .burgermenu {
+         display: none;
+     }
+     
+}
+
+
+/*MOBIL LANDSCAPE*/
+@media screen and (max-height:376px)
+{
+    .logo {
+        top: 12vw;
+         left: 42vw;
+         height: 21vw;
+         width: 20vw;
+    }
+    #liste {grid-template-columns: repeat(2, 1fr);}
+    
+    .column img {
+        width: 50%;
+        margin-left: 25vw;
+    }
+    
+    #indhold {
+        width: 30vw;
+        margin: 2rem auto;
+        padding-top: 0;
+    }
+    
+    .menuramme{
+        line-height: 1;
+        
+    }
+    
+    #popup{
+        padding-top: 0;
+        top: 0;
+    }
+    
+    #luk {
+    right: 9rem;
+    top: 2rem;
+    }
+    
+    #topmenu li {
+    padding-top: 3rem;
+    }
+    
+}
+
+
+
+     /*        IPAD*/
+     @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+         #liste {
+             grid-template-columns: repeat(2, 1fr);
+             margin: 2rem;
+
+         }
+
+
+
+
+         .column_narrow {
+             flex-basis: 400px;
+         }
+
+         .column_wide {
+             flex-basis: 400px;
+             padding-left: 2rem;
+         }
+
+         .logo {
+             height: 12vw;
+             width: 8vw;
+             top: 2vw;
+             left: 5vw;
+
+         }
+
+         .column img {
+             width: 90%;
+             margin-left: 1rem;
+             margin-top: 7.5rem
+         }
+
+         #omos {
+             margin-left: 2rem;
+             margin-top: 0rem;
+         }
+
+
+         .logo {
+             height: 12vw;
+             width: 8vw;
+             top: 2vw;
+             left: 5vw;
+
+         }
+
+         #kontakt img {
+             width: 67%;
+
+         }
+
+         .sectionwrapper {
+             flex-wrap: nowrap;
+             margin-left: 1rem;
+         }
+
+
+
+
+         #indhold {
+             width: 60vw;
+             margin: 4rem auto;
+         }
+
+         #luk {
+
+    top: 15vw;
+    right: 4em;
+         }
+
+    
+    #luk button {
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+    }
+
+
+     }
